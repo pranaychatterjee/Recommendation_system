@@ -6,5 +6,5 @@
 4. Basic Recommendation System Information are present in the documents , Please review before proceeding
 5. Run and Test in your set up environment , I have used ubuntu and Anaconda for running my python scripts
 6. R-Support is yet not done. Shall be working for team support soon.
-7. SVM Classifier support to be added soon.
+7. SVM Classifier support is added.
 
