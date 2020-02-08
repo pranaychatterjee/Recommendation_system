@@ -6,6 +6,7 @@ Created on Mon Dec 23 17:47:31 2019
 @author: pranay
 """
 
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -66,7 +67,6 @@ attributes = ["erythema",
 x_data  = dataset[attributes]
 
 y_data = dataset.hyperkeratosis
-
 X_train, X_test, y_train, y_test = train_test_split(x_data, y_data, test_size=0.3, random_state=1)
 
 svclassifier = SVC(kernel='linear')
@@ -78,3 +78,4 @@ y_pred = svclassifier.predict(X_test)
 print(confusion_matrix(y_test,y_pred))
 print(classification_report(y_test,y_pred))
 
+#In SVM LINEAR set Dermatology with choosen attributes shows accuracy of 70%% . Size of the dataset is 25,964 bytes

@@ -91,3 +91,5 @@ clf.fit(X_train,y_train)
 y_pred=clf.predict(X_test)
 
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+
+#In Random Forest data set Dermatology with choosen attributes shows accuracy of 58.18% . Size of the dataset is 25,964  bytes

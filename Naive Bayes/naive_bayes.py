@@ -91,3 +91,5 @@ model.fit(X_train,y_train)
 y_pred = model.predict(X_test)
 
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+
+#In Naive Bayes data set Dermatology with choosen attributes shows accuracy of 62.27% . Size of the dataset is 25,964  bytes

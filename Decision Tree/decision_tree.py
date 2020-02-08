@@ -99,3 +99,4 @@ graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
 graph.write_png('dermatology.png')
 Image(graph.create_png())
 
+#In decision tree data set dertamtology with choosen attributes shows accuracy of 58.18% . Size of the dataset is 25,964 bytes

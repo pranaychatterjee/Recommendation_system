@@ -100,6 +100,9 @@ cnf_matrix
 
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
+#In Regression data set Dermatology with choosen attributes shows accuracy of 70.00% . Size of the dataset is 25,964 bytes
+
+
 class_names=[2,3] # name  of classes
 fig, ax = plt.subplots()
 tick_marks = np.arange(len(class_names))

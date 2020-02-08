@@ -98,3 +98,5 @@ y_pred = knn.predict(X_test)
 
 # Model Accuracy, how often is the classifier correct?
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+
+#In KNN data set dertamtology with choosen attributes shows accuracy of 63.63% . Size of the dataset is 25,964 bytes

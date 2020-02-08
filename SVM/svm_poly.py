@@ -79,6 +79,8 @@ y_pred = svclassifier.predict(X_test)
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
+#In SVM poly set Dermatology with choosen attributes shows accuracy of 58% . Size of the dataset is 25,964 bytes
+
 #Gausian Kernel
 
 svclassifier = SVC(kernel='rbf')
@@ -89,6 +91,9 @@ y_pred = svclassifier.predict(X_test)
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
+#In SVM Gausian Dataset Dermatology with choosen attributes shows accuracy of 70%. Size of the dataset is 25,964 bytes
+
+
 #Sigmoid Kernel
 
 svclassifier = SVC(kernel='sigmoid')
@@ -98,3 +103,5 @@ y_pred = svclassifier.predict(X_test)
 
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
+
+#In SVM Sigmoid set Dermatology with choosen attributes shows accuracy of 63%% . Size of the dataset is 25,964 bytes
